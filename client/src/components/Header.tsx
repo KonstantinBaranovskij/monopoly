@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6">
-          Welcome to My App
+          Welcome to Monopoly
         </Typography>
       </Toolbar>
     </AppBar>
