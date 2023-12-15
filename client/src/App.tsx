@@ -17,7 +17,7 @@ function App() {
           Monopoly
         </Typography>
         <Button variant="contained" color="primary">
-          Кнопка
+          Кнопкассс
         </Button>
       </main>
     </div>
