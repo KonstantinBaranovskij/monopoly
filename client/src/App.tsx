@@ -1,14 +1,7 @@
 import React from 'react';
-import Button from '@mui/material/Button';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import Header from './components/Header'; 
-import Matrix from './components/Matrix';
-import MonopolyGrid from './components/Matrix';
-import ProfilesTable from './components/ProfilesTable';
+import MonopolyGrid from './components/MonopolyBoard';
 
 const profiles = [
   {
@@ -35,7 +28,7 @@ function App() {
           Monopoly
         </Typography>
       </main>
-      <MonopolyGrid />
+      <MonopolyGrid/>
     </div>
   );
 }
